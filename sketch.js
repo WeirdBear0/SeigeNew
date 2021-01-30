@@ -122,7 +122,7 @@ function keyPressed(){
 }
 
 async function dayNight(){
-    var response = await fetch("http://worldtimeapi.org/api/timezone/america/phoenix");
+    var response = await fetch("https://worldtimeapi.org/api/timezone/america/phoenix");
     var json = await response.json()
     console.log(json);
     time = json.datetime;
