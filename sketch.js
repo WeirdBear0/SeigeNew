@@ -129,11 +129,11 @@ async function dayNight(){
     var indexpos = time.slice(11,13);
     console.log(indexpos);
     if (indexpos>6 && indexpos<=17){
-        bg = "sprites/yellow.jpg"
+        bg = "yellow.jpg"
         console.log("day");
     }
     else{
-        bg = "sprites/black.jpg"
+        bg = "black.jpg"
         console.log("night");
 
     }
